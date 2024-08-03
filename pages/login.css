@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(3, 38, 58);
+}
+
+
+.login {
+    width: 500px;
+    height: 600px;
+    margin: 50px auto;
+    margin-top: 100px;
+    margin-left: 500px;
+    position: fixed; 
+    scroll-behavior: none;
+    border-radius: 50px;
+    background: #ffffff;
+    box-shadow: 29px 29px 58px #000000, -29px -20px 58px #000000;
+  }
+
+  h1{
+    margin-top: 50px;
+    color: #0f3363;
+    font-family: "Lucida Handwriting", cursive;
+    text-align: center;
+    font-size: 45px;
+  }
+  
+  label{
+    font-size: 22px;
+    color:  #0f3363;
+    margin-left: 40px ;
+  }
+  input{
+    font-size: 17px;
+    border-radius: 5px;
+    width: 230px;
+    padding: 2px;
+  }
+  #lab{
+    margin-left: 50px;
+  }
+  #email{
+    margin-left: 20px;
+  }
+  p{
+    color: #660b0b;
+    font-size: 20px;
+    margin-left: 30px ;
+  }
+  button{
+    margin-left: 11em;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    background-color: #0f3363;
+    color: #ffffff;
+    border-radius:15px;
+    border:none;
+    cursor: pointer;
+  }
+  a{
+    background-color: #0f3363;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 7px 25px 7px 25px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  @media only screen and  (max-width: 768px){
+    .login {
+      width: 390px;
+      margin-top: 100px;
+      margin-left: 40px;
+    }
+
+    label{
+      font-size: 22px;
+      color:  #0f3363;
+      margin-left: 30px ;
+    }
+    input{
+      font-size: 17px;
+      border-radius: 5px;
+      width: 230px;
+    }
+    #lab{
+      margin-left: 40px;
+    }
+    button{
+      margin-left: 8em;
+      
+    }
+    
+  } 
+
+  
+
+
+        
